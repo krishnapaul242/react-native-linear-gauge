@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNLinearGaugeModule, { Counter } from 'react-native-linear-gauge'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNLinearGaugeModule)
   })
 
   return <Counter />
